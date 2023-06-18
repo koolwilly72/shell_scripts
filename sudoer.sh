@@ -5,6 +5,7 @@ if [ "$EUID" -ne 0 ]; then
     echo "Please run this script as root or with sudo privileges."
     exit
 fi
+
 # Get the current logged in username
 current_user=$(logname)
 
